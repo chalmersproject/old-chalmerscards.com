@@ -209,10 +209,14 @@ nav ul li a:hover {
 	text-align: left;
 }
 
+.content a{
+	text-decoration: none;
+}
+
 .logo_container{
 	display: flex;
 	align-items: center;
-	justify-content: 
+	justify-content:
 }
 
 .logo_container h2{
