@@ -241,3 +241,17 @@ nav ul li a:hover {
 .logo_container h2 a:hover {
 	text-decoration: underline;
 }
+
+.cards_container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	width: 800px;
+	margin: 0 auto;
+}
+
+.cards_container img{
+	width: 800px;
+	margin-bottom: 20px;
+}
