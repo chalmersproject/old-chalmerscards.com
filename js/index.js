@@ -5,7 +5,7 @@ $(document).ready(function(){
     });
 });
 $('.overlay').on('click', function(){
-    $(".overlay").fadeToggle(200);   
+    $(".overlay").fadeToggle(200);
     $(".button a").toggleClass('btn-open').toggleClass('btn-close');
     open = false;
 });
