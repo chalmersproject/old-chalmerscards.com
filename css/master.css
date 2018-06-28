@@ -58,6 +58,12 @@ nav a li:hover{
   padding-top: 3vh;
   line-height: 1.2;
 }
+.ChalmersDescription h2 a{
+  color: white;
+  text-decoration: none;
+  line-height: 2;
+  padding-bottom: 4vh;
+}
 /* .ChalmersDescription span{
   margin: 5vw;
 } */
