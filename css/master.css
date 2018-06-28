@@ -1,0 +1,63 @@
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  text-decoration: none;
+}
+body{
+  font-family: Arial;
+  color: white;
+  background-color: #000000;
+  font-size: 2vw;
+  line-height: 1.5;
+}
+.container{
+  width: 80vw;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+header{
+  padding-top: 1vh;
+  background-color: #4c4c4c;
+  border-bottom: #f1615a 3px solid;
+  display: flex;
+}
+header .logo{
+  float: left;
+}
+header .logo img{
+  height: 10vw;
+  width: auto;
+}
+header .text{
+  padding-left: 1vw;
+  float: left;
+  text-decoration: none;
+}
+header a li{
+  display: inline;
+  padding: 1vw 2vw 2.6vw 2vw;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+}
+nav a li:hover{
+  background-color: #f1615a;
+  color: #2e282a;
+}
+.chalmersPhoto a img{
+  padding-top: 4vh;
+  width: 35vw;
+  float: left;
+}
+.ChalmersDescription{
+  padding-left: 3vw;
+}
+.ChalmersDescription h1{
+  padding-top: 3vh;
+  line-height: 1.2;
+}
+/* .ChalmersDescription span{
+  margin: 5vw;
+} */
