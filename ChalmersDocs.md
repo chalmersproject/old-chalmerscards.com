@@ -1,3 +1,6 @@
+# How to get a Chalmers Card
+Come meet us at [Civic Tech Toronto](https://www.meetup.com/Civic-Tech-Toronto/)! We give out Chalmers Cards there every week.
+
 ## How to Make a Chalmers Cards
 
 If you have access to your own laser and want to get started printing your own, the files for the cards are [on Github](https://github.com/misterchalmers/ChalmersCards).
