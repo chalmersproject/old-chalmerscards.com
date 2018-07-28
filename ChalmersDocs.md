@@ -1,3 +1,4 @@
+![](https://raw.githubusercontent.com/misterchalmers/ChalmersSite/master/images/nightSky.JPG)
 # Chalmers Docs
 
 ## How to get a Chalmers Card
@@ -65,3 +66,4 @@ If you don't already have someone in mind to give your Chalmers Card to, below a
     3. Union Station
     4. Queen St. -- Anywhere from Sherbourne to Dufferin
     5. Bloor St. -- Anywhere from Sherborne to Dufferin
+![](https://raw.githubusercontent.com/zacharydonsky/personalSite/master/assets/ChalmersCardsBatch.jpg)
