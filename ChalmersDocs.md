@@ -66,4 +66,12 @@ If you don't already have someone in mind to give your Chalmers Card to, below a
     3. Union Station
     4. Queen St. -- Anywhere from Sherbourne to Dufferin
     5. Bloor St. -- Anywhere from Sherborne to Dufferin
+## How to give feedback
+If you've got notes on the Chalmers Card, or the interaction you had giving out the Chalmers Card was a memorable on, feel free to send the Chalmers team some feedback! We'd especially like to hear if a particular resources was useful, or if something is missing from the card!
+
+* Come to [Civic Tech Toronto](http://civictech.ca/) on Tuesdays. One of us will be there.
+* Send us a message on [Slack](https://civictechto.slack.com/messages) in the #chalmerscards channel or DM us
+    * @Zach
+    * @jtloong
+* Send [Mister Chalmers](mailto:misterchalmers@protonmail.com) an email...😶
 ![](https://raw.githubusercontent.com/zacharydonsky/personalSite/master/assets/ChalmersCardsBatch.jpg)
