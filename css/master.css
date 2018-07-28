@@ -18,6 +18,7 @@ body{
   justify-content: center;
 }
 .boxContainer{
+  margin-top:10vh;
   width:100vw;
   height:50vh;
   display:flex;
@@ -67,6 +68,19 @@ body{
   .box:hover { width:22vw; }
   .box:hover .box-blurb{width:22vw; } 
   .box .baseCount{margin:0;}
+    .HowManyWeMade{
+      background-image: url(https://raw.githubusercontent.com/misterchalmers/ChalmersSite/master/images/SpreadSheet.png);
+      background-size: 20vw;
+    }
+    .chalmersBatch{
+      background-image: url(https://raw.githubusercontent.com/zacharydonsky/personalSite/master/assets/ChalmersCardsBatch.jpg);
+      background-size: 40vw;
+      background-position: center;
+    }
+  .ourPlan{
+    margin-right: 0;
+    background-image: url(https://raw.githubusercontent.com/misterchalmers/ChalmersSite/master/images/WhatWeWorkinOn.png);
+  }
 header{
   padding-top: 1vh;
   background-color: #4c4c4c;
