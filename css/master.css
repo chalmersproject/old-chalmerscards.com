@@ -18,9 +18,11 @@ body{
   justify-content: center;
 }
 .boxContainer{
-  margin-top:10vh;
+  background-image: url(https://raw.githubusercontent.com/misterchalmers/ChalmersSite/master/images/nightSky.JPG);
+  background-size: 100vw;
+  background-position: bottom;
   width:100vw;
-  height:50vh;
+  height:75vh;
   display:flex;
   justify-content: center;
   align-items: center;
@@ -34,7 +36,7 @@ body{
   text-align: center;                    
   background-size: 90vh;
   border-radius: 10px;
-  box-shadow: 0 0 1vw #f1615a;    
+  box-shadow: 0 0 1vw black;    
   width: 20vw;
   height: 22vw;      
   transition: width .5s; 
