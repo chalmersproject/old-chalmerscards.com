@@ -7,7 +7,7 @@
 body{
   font-family: Arial;
   color: white;
-  background-color: #000000;
+  background-color: black;
   font-size: 2vw;
   line-height: 1.5;
 }
@@ -17,6 +17,56 @@ body{
   display: flex;
   justify-content: center;
 }
+.boxContainer{
+  width:100vw;
+  height:50vh;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box{
+  display: flex;
+  
+  justify-content: center;
+  align-items: flex-end;
+  text-align: center;                    
+  background-size: 90vh;
+  border-radius: 10px;
+  box-shadow: 0 0 1vw #f1615a;    
+  width: 20vw;
+  height: 22vw;      
+  transition: width .5s; 
+  margin: 0 4vw 0 0;
+  z-index:0;
+}
+  .box-blurb{
+      display:flex;
+      flex-direction: column;
+      width:20vw;
+      height: 8vw;
+
+      border-radius: 0 0 10px 10px;
+      transition: width .5s; 
+
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      line-height: 95%;
+      background-color: black;
+      opacity: 0.75;
+      color:white;
+      font-size: 2vw;
+      font-family: Arial;
+  }
+  .box p{
+      color: white;
+      font-size: 12px;
+      line-height: 95%;
+  }
+  .box:hover { width:22vw; }
+  .box:hover .box-blurb{width:22vw; } 
+  .box .baseCount{margin:0;}
 header{
   padding-top: 1vh;
   background-color: #4c4c4c;
