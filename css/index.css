@@ -1,8 +1,8 @@
-body{
-  background: black;
+.landing{
+  background: rgba(0,0,0,0.9);
   box-shadow: 0 1em 4em #131313;
   width: 30em;
-  height: 35em;
+  height: 40em;
 
   border-radius: .5em;
 
@@ -10,16 +10,31 @@ body{
   flex-direction: row;
   justify-content: center;
 }
+
 .content{
     display:flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-
     width: 83%;
+    padding: 0 3em 0 3em;
+}
+.banner{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; 
+}
+.banner .chalmersLogo{
+    width:5.5em;
+    margin-right: 1em;
 }
 .chalmersCardsBatch{
-    background:url();
+    background-image: url(https://raw.githubusercontent.com/misterchalmers/ChalmersSite/mobileFriendly/images/ChalmersCardsBatch.jpg);
+    /* margin-top: 3em; */
+    width:20em;
+    height:15em;
+    background-size: 20em;
 }
 .sidebar{
     display:flex;
@@ -27,6 +42,7 @@ body{
     align-items: center;
 
     width: 17%;
+    padding-right: 1em;
     background: rgb(107, 107, 107);
     border-radius: 0 .5em .5em 0;
     transition: background .5s;
