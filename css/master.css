@@ -1,141 +1,14 @@
-*{
-  margin: 0;
-  padding: 0;
-  border: 0;
-  text-decoration: none;
-}
-body{
-  font-family: Arial;
-  color: white;
-  background-color: black;
-  font-size: 2vw;
-  line-height: 1.5;
-}
-.container{
-  width: 80vw;
-  margin: auto;
+/* load the background image */
+html{
+  background: url(https://raw.githubusercontent.com/misterchalmers/ChalmersSite/master/images/nightSky.JPG);
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+
+  /* position the content window */
   display: flex;
-  justify-content: center;
-}
-.boxContainer{
-  background-image: url(https://raw.githubusercontent.com/misterchalmers/ChalmersSite/master/images/nightSky.JPG);
-  background-size: 100vw;
-  background-position: bottom;
-  width:100vw;
-  height:75vh;
-  display:flex;
   justify-content: center;
   align-items: center;
 }
 
-.box{
-  display: flex;
-  
-  justify-content: center;
-  align-items: flex-end;
-  text-align: center;                    
-  background-size: 90vh;
-  border-radius: 10px;
-  box-shadow: 0 0 1vw black;    
-  width: 20vw;
-  height: 22vw;      
-  transition: width .5s; 
-  margin: 0 4vw 0 0;
-  z-index:0;
-}
-  .box-blurb{
-      display:flex;
-      flex-direction: column;
-      width:20vw;
-      height: 8vw;
 
-      border-radius: 0 0 10px 10px;
-      transition: width .5s; 
-
-      align-items: center;
-      justify-content: center;
-      text-align: center;
-      line-height: 95%;
-      background-color: black;
-      opacity: 0.75;
-      color:white;
-      font-size: 2vw;
-      font-family: Arial;
-  }
-  .box p{
-      color: white;
-      font-size: 12px;
-      line-height: 95%;
-  }
-  .box:hover { width:22vw; }
-  .box:hover .box-blurb{width:22vw; } 
-  .box .baseCount{margin:0;}
-    .HowManyWeMade{
-      background-image: url(https://raw.githubusercontent.com/misterchalmers/ChalmersSite/master/images/SpreadSheet.png);
-      background-size: 20vw;
-    }
-    .chalmersBatch{
-      background-image: url(https://raw.githubusercontent.com/zacharydonsky/personalSite/master/assets/ChalmersCardsBatch.jpg);
-      background-size: 40vw;
-      background-position: center;
-    }
-    .budget{
-      background-image: url(https://raw.githubusercontent.com/misterchalmers/ChalmersSite/master/images/budget.png);
-      background-size: 20vw;
-      background-position: center;
-    }
-  .ourPlan{
-    margin-right: 0;
-    background-image: url(https://raw.githubusercontent.com/misterchalmers/ChalmersSite/master/images/WhatWeWorkinOn.png);
-  }
-header{
-  padding-top: 1vh;
-  background-color: #4c4c4c;
-  border-bottom: #f1615a 3px solid;
-  display: flex;
-}
-header .logo{
-  float: left;
-}
-header .logo img{
-  height: 10vw;
-  width: auto;
-}
-header .text{
-  padding-left: 1vw;
-  float: left;
-  text-decoration: none;
-}
-header a li{
-  display: inline;
-  padding: 1vw 2vw 2.6vw 2vw;
-  text-align: center;
-  text-decoration: none;
-  color: white;
-}
-nav a li:hover{
-  background-color: #f1615a;
-  color: #2e282a;
-}
-.chalmersPhoto a img{
-  padding-top: 4vh;
-  width: 35vw;
-  float: left;
-}
-.ChalmersDescription{
-  padding-left: 3vw;
-}
-.ChalmersDescription h1{
-  padding-top: 3vh;
-  line-height: 1.2;
-  font-family: fira-sans;
-}
-.ChalmersDescription h2 a{
-  color: white;
-  text-decoration: none;
-  line-height: 2;
-  padding-bottom: 4vh;
-}
-/* .ChalmersDescription span{
-  margin: 5vw;
-} */
