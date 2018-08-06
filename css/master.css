@@ -1,3 +1,6 @@
+*{
+  font-family: arial;
+}
 /* load the background image */
 html{
   background: url(https://raw.githubusercontent.com/misterchalmers/ChalmersSite/master/images/nightSky.JPG);
@@ -10,5 +13,23 @@ html{
   justify-content: center;
   align-items: center;
 }
+.chalmersLogo{
+    width: 5em;
+    height: 5em;
+    border-radius: 50%;
+    border: .25em white solid;
 
-
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+    .eyes{
+        width: 1.25em;
+        height: 1.25em;
+        border-radius: 50%;
+        border: .125em white solid;
+    }
+    .spacer{
+        visibility: hidden;
+        width:0.3em;
+    }

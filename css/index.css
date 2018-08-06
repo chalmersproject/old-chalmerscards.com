@@ -18,7 +18,9 @@ body{
 
     width: 83%;
 }
-
+.chalmersCardsBatch{
+    background:url();
+}
 .sidebar{
     display:flex;
     justify-content: center;
