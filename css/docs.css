@@ -22,7 +22,6 @@ body{
         align-self: flex-end;   
         display: flex;
         align-items: center;
-        /* background: grey; */
     }
         .chalmersLogo{
             align-self: flex-start;
@@ -47,10 +46,13 @@ body{
             display:flex;
             align-self: flex-start;
             flex-direction: row;
-            width:4em;
+            align-items: center;
+            padding-left: 1em;
+            width:2.5em;
             height:70vh;
             background: rgb(107, 107, 107);
             border-radius: .5em 0 0 .5em;
+            transition: background 0.5s;
         }
         .boxContainer{
             align-self: flex-start;
@@ -62,7 +64,18 @@ body{
         align-self: flex-end;
         width: 20vw;
         height: 10vh;
-        background: white;
+        border-radius: .5em .5em 0 0;   
+        transition: background 0.5s;
+        background: rgb(230, 230, 230);
         color: black;
-        border-radius: .5em .5em 0 0;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        font-size: 1.125em;
     }
+        .footer:hover{
+            background:rgb(75, 75, 75);
+            color:white;
+        }
+        
