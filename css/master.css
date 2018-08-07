@@ -1,5 +1,6 @@
 *{
   font-family: arial;
+  color: white;
 }
 /* load the background image */
 html{
@@ -11,7 +12,7 @@ html{
   /* position the content window */
   display:flex;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center; 
 }
 body{
