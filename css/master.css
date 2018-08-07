@@ -9,9 +9,15 @@ html{
   height: 100%;
 
   /* position the content window */
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  display:flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center; 
+}
+body{
+  display:flex;
+  flex-direction: column;
+  justify-content: flex-start;
 }
 .chalmersLogo{
     width: 5em;
