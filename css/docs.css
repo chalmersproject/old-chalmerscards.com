@@ -9,21 +9,20 @@ body{
 
 }
 .docs{
-    width: 85vw;
+    width: 90vw;
     height: 97vh;
-    background: rgba(0,0,0,0.8);
 
     display:flex;
     flex-direction: column;
     justify-content: flex-start;
 }
     .banner{
-        width: 75vw;
+        width: 82vw;
         height: 15vh;
         align-self: flex-end;   
         display: flex;
         align-items: center;
-        background: grey;
+        /* background: grey; */
     }
         .chalmersLogo{
             align-self: flex-start;
@@ -32,8 +31,11 @@ body{
             .spacer{
                 width: 0.5em;
             }
+        h1{
+            margin-left: 0.5em;
+        }
     .centerContent{
-        width:85vw;
+        width:90vw;
         height:82vh;    
         margin-top: 2vh;
         display:flex;
@@ -43,15 +45,16 @@ body{
     }
         .sidebar{
             display:flex;
-            flex-direction: row;
             align-self: flex-start;
-            width:8vw;
+            flex-direction: row;
+            width:4em;
             height:70vh;
-            background:white;
+            background: rgb(107, 107, 107);
+            border-radius: .5em 0 0 .5em;
         }
         .boxContainer{
             align-self: flex-start;
-            width: 75vw;
+            width: 82vw;
             height: 70vh;
             background: grey;
         }
@@ -60,4 +63,6 @@ body{
         width: 20vw;
         height: 10vh;
         background: white;
+        color: black;
+        border-radius: .5em .5em 0 0;
     }
