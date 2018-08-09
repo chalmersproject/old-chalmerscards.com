@@ -105,29 +105,29 @@ body{
     background-position: right;
 }
 .chalmersGithub{
-    background: url(https://raw.githubusercontent.com/misterchalmers/ChalmersSite/mobileFriendly/images/ChalmersCardsBatch.jpg);
+    background: url(https://raw.githubusercontent.com/misterchalmers/ChalmersSite/mobileFriendly/images/githubShot.png);
     background-size:cover;
-    background-position: right;
+    background-position: center;
 }
 .chalmersData{
-    background: url(https://raw.githubusercontent.com/misterchalmers/ChalmersSite/mobileFriendly/images/ChalmersCardsBatch.jpg);
+    background: url(https://raw.githubusercontent.com/misterchalmers/ChalmersSite/mobileFriendly/images/SpreadSheet.png);
     background-size:cover;
     background-position: right;
 }
 .chalmersBudget{
-    background: url(https://raw.githubusercontent.com/misterchalmers/ChalmersSite/mobileFriendly/images/ChalmersCardsBatch.jpg);
+    background: url(https://raw.githubusercontent.com/misterchalmers/ChalmersSite/mobileFriendly/images/budget.png);
     background-size:cover;
     background-position: right;
 }
-.chalmersGuide{
-    background: url(https://raw.githubusercontent.com/misterchalmers/ChalmersSite/mobileFriendly/images/ChalmersCardsBatch.jpg);
+.chalmersPlan{
+    background: url(https://raw.githubusercontent.com/misterchalmers/ChalmersSite/mobileFriendly/images/WhatWeWorkinOn.png);
     background-size:cover;
     background-position: right;
 }
-.chalmersGuide{
-    background: url(https://raw.githubusercontent.com/misterchalmers/ChalmersSite/mobileFriendly/images/ChalmersCardsBatch.jpg);
+.chalmersBlog{
+    background: url(https://raw.githubusercontent.com/misterchalmers/ChalmersSite/mobileFriendly/images/WhatWeWorkinOn.png);
     background-size:cover;
-    background-position: right;
+    background-position: right; 
 }
                 .box:hover{
                     width: 42vw;
