@@ -77,9 +77,8 @@ body{
                 .box{
                     display:flex;
                     flex-direction: row;
-                    width:40vw;
-                    height: 22vh;
-                    background: white;
+                    width:15em;
+                    height:15em;
                     border-radius: .5em;
                     transition: width 0.5s;
                     display:flex;
@@ -88,8 +87,8 @@ body{
                     box-shadow: 0 1em 4em #131313;
                 }
                 .boxBlurb{
-                    width: 20vw;
-                    height: 22vh;
+                    width: 15em;
+                    height: 15em;
                     background: black;
                     color: white;
                     transition: width .5s;
