@@ -61,3 +61,24 @@ i {
         border: solid black;
         border-width: 0 0.25em 0.25em 0;
     }
+a .footer{
+    align-self: flex-end;
+    float: right;
+    width: 10em;
+    height: 2.8em;
+    margin-top: 1.6em;
+    border-radius: .5em .5em 0 0;   
+    background: rgb(230, 230, 230);
+    color: black;
+    transition: background 0.5s;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 1.125em;
+    box-shadow: 0 1em 4em #131313;
+}
+    a .footer:hover{
+        background:rgb(75, 75, 75);
+        color:white;
+    }
