@@ -10,30 +10,31 @@
         flex-direction: column;
         justify-content: flex-start;
         align-items: center;
-        
+
     }
     .landing{
         width: 95vw;
         height: auto;
         margin: 1em 0 1em 0;
         padding: 1em 0 0 0;
+        display: inline-block;
         justify-content: flex-start;
         align-items: center;
         flex-direction: column;
     }
     .content{
-        padding:0; 
+        padding:0 8% 0 8%;
     }
     .banner{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin: auto; 
+        margin: auto;
         text-align: center;
     }
         .chalmersLogo{
             /* fixing alignment issue */
-            transform: translateX(.5em); 
+            transform: translateX(.5em);
             width: 5em;
             height: 5.5em;
             border-width: 0.18em;
@@ -66,4 +67,4 @@
     p{
         width: 80vw;
     }
-}   
+}
