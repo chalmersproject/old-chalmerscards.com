@@ -1,0 +1,31 @@
+@media screen and (max-width: 55em){
+    .banner{
+        margin-top: 2vh;
+        transform: translateX(60vw);
+        width: 100vw;
+        height: 30vh;
+    }
+    .banner h1{
+        transform: translateY(7vh);
+    }
+    .sidebar{
+        display:none;
+    }
+    body{
+        justify-content: center;
+    }
+    .centerContent{
+        height:900vh;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+    }
+    .boxContainer{
+        width: 90vw;
+        flex-direction: column;
+        transform: translateY(55vh);
+    }
+    .box{
+        margin-top: 4vh;
+    }
+}
